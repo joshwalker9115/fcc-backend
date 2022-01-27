@@ -2,7 +2,7 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Joshua Walker",
 	"description": "A project that does something awesome",
-	"keywords": ["maybe", "practice", "portfolio"],
+	"keywords": ["freecodecamp", "practice", "portfolio"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
