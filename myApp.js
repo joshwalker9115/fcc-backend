@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 var express = require('express');
 var app = express();
 
@@ -6,6 +8,9 @@ console.log("Hello World");
 const absolutePathIndex = __dirname + "/views/index.html";
 const absolutePathCSS = __dirname + "/public";
 const jsonResponse = {"message": "Hello json"};
+if (process.env.MESSAGE_STYLE === "uppercase") {
+    jsonResponse.message.toUpperCase();
+}
 
 const sendIndex = (req, res) => res.sendFile(absolutePathIndex);
 const middlewareCSS = express.static(absolutePathCSS);
