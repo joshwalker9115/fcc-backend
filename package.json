@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+	"name": "fcc-learn-node-with-express",
+	"version": "0.1.0",
+	"dependencies": {
+		"express": "^4.14.0",
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3",
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+=======
 	"name": "fcc-learn-npm-package-json",
 	"author": "Joshua Walker",
 	"description": "A project that does something awesome",
@@ -7,13 +16,17 @@
 	"version": "0.1.0",
 	"dependencies": {
 		"express": "^4.14.0"
+>>>>>>> 387cac8eeaacc86ef3bc5b1e59e270d585887981
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
+<<<<<<< HEAD
+=======
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
+>>>>>>> 387cac8eeaacc86ef3bc5b1e59e270d585887981
 	}
 }
