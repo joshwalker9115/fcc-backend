@@ -11,7 +11,7 @@ const middlewareCSS = () => express.static(absolutePathCSS);
 
 
 app.get('/', sendIndex);
-app.use*('/public', express.static(__dirname + "/public"));
+app.use('/public', express.static(__dirname + "/public"));
 
 
 
